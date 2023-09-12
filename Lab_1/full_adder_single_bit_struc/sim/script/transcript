@@ -1,0 +1,348 @@
+# do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:04:27 on Sep 12,2023
+# vcom -reportprogress 300 -93 -work work ../../src/XOR_gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity XOR_gate
+# -- Compiling architecture XOR_out of XOR_gate
+# End time: 15:04:32 on Sep 12,2023, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:04:32 on Sep 12,2023
+# vcom -reportprogress 300 -93 -work work ../../src/AND_gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity and_gate
+# -- Compiling architecture and_out of and_gate
+# End time: 15:04:33 on Sep 12,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:04:33 on Sep 12,2023
+# vcom -reportprogress 300 -93 -work work ../../src/OR_gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OR_gate
+# -- Compiling architecture OR_out of OR_gate
+# End time: 15:04:33 on Sep 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:04:33 on Sep 12,2023
+# vcom -reportprogress 300 -93 -work work ../../src/full_adder_single_bit_struc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity full_adder_single_bit_struc
+# -- Compiling architecture struc of full_adder_single_bit_struc
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(26): Symbol "and1" has already been declared in this region.
+# -- Loading entity and_gate
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(26): (vcom-1035) Formal port "a" has OPEN or no actual associated with it.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(26): (vcom-1035) Formal port "b" has OPEN or no actual associated with it.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(27): near "port": syntax error
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(33): Symbol "and2" has already been declared in this region.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(33): (vcom-1035) Formal port "a" has OPEN or no actual associated with it.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(33): (vcom-1035) Formal port "b" has OPEN or no actual associated with it.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(34): near "port": syntax error
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(40): Symbol "and3" has already been declared in this region.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(40): (vcom-1035) Formal port "a" has OPEN or no actual associated with it.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(40): (vcom-1035) Formal port "b" has OPEN or no actual associated with it.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(41): near "port": syntax error
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(47): Symbol "XOR1" has already been declared in this region.
+# -- Loading entity XOR_gate
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(47): (vcom-1035) Formal port "a" has OPEN or no actual associated with it.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(47): (vcom-1035) Formal port "b" has OPEN or no actual associated with it.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(48): near "port": syntax error
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(54): (vcom-1035) Formal port "a" has OPEN or no actual associated with it.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(54): (vcom-1035) Formal port "b" has OPEN or no actual associated with it.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(55): near "port": syntax error
+# -- Loading entity OR_gate
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(61): (vcom-1035) Formal port "a" has OPEN or no actual associated with it.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(61): (vcom-1035) Formal port "b" has OPEN or no actual associated with it.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(61): (vcom-1035) Formal port "c" has OPEN or no actual associated with it.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(62): near "port": syntax error
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(69): Symbol "and1" has already been declared in this region.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(71): near "end": (vcom-1576) expecting STRING or IDENTIFIER or <<.
+# End time: 15:04:33 on Sep 12,2023, Elapsed time: 0:00:00
+# Errors: 25, Warnings: 0
+# ** Error: C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./sim.do line 5
+# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work ../../src/full_adder_single_bit_struc.vhd"
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:06:04 on Sep 12,2023
+# vcom -reportprogress 300 -93 -work work ../../src/XOR_gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity XOR_gate
+# -- Compiling architecture XOR_out of XOR_gate
+# End time: 15:06:04 on Sep 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:06:04 on Sep 12,2023
+# vcom -reportprogress 300 -93 -work work ../../src/AND_gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity and_gate
+# -- Compiling architecture and_out of and_gate
+# End time: 15:06:05 on Sep 12,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:06:05 on Sep 12,2023
+# vcom -reportprogress 300 -93 -work work ../../src/OR_gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OR_gate
+# -- Compiling architecture OR_out of OR_gate
+# End time: 15:06:05 on Sep 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:06:05 on Sep 12,2023
+# vcom -reportprogress 300 -93 -work work ../../src/full_adder_single_bit_struc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity full_adder_single_bit_struc
+# -- Compiling architecture struc of full_adder_single_bit_struc
+# -- Loading entity and_gate
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(26): (vcom-1035) Formal port "a" has OPEN or no actual associated with it.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(26): (vcom-1035) Formal port "b" has OPEN or no actual associated with it.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(27): near "port": syntax error
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(33): (vcom-1035) Formal port "a" has OPEN or no actual associated with it.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(33): (vcom-1035) Formal port "b" has OPEN or no actual associated with it.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(34): near "port": syntax error
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(40): (vcom-1035) Formal port "a" has OPEN or no actual associated with it.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(40): (vcom-1035) Formal port "b" has OPEN or no actual associated with it.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(41): near "port": syntax error
+# -- Loading entity XOR_gate
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(47): (vcom-1035) Formal port "a" has OPEN or no actual associated with it.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(47): (vcom-1035) Formal port "b" has OPEN or no actual associated with it.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(48): near "port": syntax error
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(54): (vcom-1035) Formal port "a" has OPEN or no actual associated with it.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(54): (vcom-1035) Formal port "b" has OPEN or no actual associated with it.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(55): near "port": syntax error
+# -- Loading entity OR_gate
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(61): (vcom-1035) Formal port "a" has OPEN or no actual associated with it.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(61): (vcom-1035) Formal port "b" has OPEN or no actual associated with it.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(61): (vcom-1035) Formal port "c" has OPEN or no actual associated with it.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(62): near "port": syntax error
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(69): Symbol "and1" has already been declared in this region.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(71): near "end": (vcom-1576) expecting STRING or IDENTIFIER or <<.
+# End time: 15:06:05 on Sep 12,2023, Elapsed time: 0:00:00
+# Errors: 21, Warnings: 0
+# ** Error: C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./sim.do line 5
+# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work ../../src/full_adder_single_bit_struc.vhd"
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:10:12 on Sep 12,2023
+# vcom -reportprogress 300 -93 -work work ../../src/XOR_gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity XOR_gate
+# -- Compiling architecture XOR_out of XOR_gate
+# End time: 15:10:12 on Sep 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:10:12 on Sep 12,2023
+# vcom -reportprogress 300 -93 -work work ../../src/AND_gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity and_gate
+# -- Compiling architecture and_out of and_gate
+# End time: 15:10:12 on Sep 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:10:12 on Sep 12,2023
+# vcom -reportprogress 300 -93 -work work ../../src/OR_gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OR_gate
+# -- Compiling architecture OR_out of OR_gate
+# End time: 15:10:12 on Sep 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:10:12 on Sep 12,2023
+# vcom -reportprogress 300 -93 -work work ../../src/full_adder_single_bit_struc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity full_adder_single_bit_struc
+# -- Compiling architecture struc of full_adder_single_bit_struc
+# -- Loading entity and_gate
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(31): (vcom-1484) Unknown formal identifier "c".
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(38): (vcom-1484) Unknown formal identifier "c".
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(45): (vcom-1484) Unknown formal identifier "c".
+# -- Loading entity XOR_gate
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(52): (vcom-1484) Unknown formal identifier "c".
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(59): (vcom-1484) Unknown formal identifier "c".
+# -- Loading entity OR_gate
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(69): Symbol "and1" has already been declared in this region.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(71): near "end": (vcom-1576) expecting STRING or IDENTIFIER or <<.
+# End time: 15:10:13 on Sep 12,2023, Elapsed time: 0:00:01
+# Errors: 7, Warnings: 0
+# ** Error: C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./sim.do line 5
+# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work ../../src/full_adder_single_bit_struc.vhd"
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:11:25 on Sep 12,2023
+# vcom -reportprogress 300 -93 -work work ../../src/XOR_gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity XOR_gate
+# -- Compiling architecture XOR_out of XOR_gate
+# End time: 15:11:25 on Sep 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:11:25 on Sep 12,2023
+# vcom -reportprogress 300 -93 -work work ../../src/AND_gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity and_gate
+# -- Compiling architecture and_out of and_gate
+# End time: 15:11:25 on Sep 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:11:25 on Sep 12,2023
+# vcom -reportprogress 300 -93 -work work ../../src/OR_gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OR_gate
+# -- Compiling architecture OR_out of OR_gate
+# End time: 15:11:25 on Sep 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:11:25 on Sep 12,2023
+# vcom -reportprogress 300 -93 -work work ../../src/full_adder_single_bit_struc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity full_adder_single_bit_struc
+# -- Compiling architecture struc of full_adder_single_bit_struc
+# -- Loading entity and_gate
+# -- Loading entity XOR_gate
+# -- Loading entity OR_gate
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(69): Symbol "and1" has already been declared in this region.
+# ** Error: ../../src/full_adder_single_bit_struc.vhd(71): near "end": (vcom-1576) expecting STRING or IDENTIFIER or <<.
+# End time: 15:11:26 on Sep 12,2023, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./sim.do line 5
+# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work ../../src/full_adder_single_bit_struc.vhd"
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:11:55 on Sep 12,2023
+# vcom -reportprogress 300 -93 -work work ../../src/XOR_gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity XOR_gate
+# -- Compiling architecture XOR_out of XOR_gate
+# End time: 15:11:55 on Sep 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:11:55 on Sep 12,2023
+# vcom -reportprogress 300 -93 -work work ../../src/AND_gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity and_gate
+# -- Compiling architecture and_out of and_gate
+# End time: 15:11:55 on Sep 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:11:55 on Sep 12,2023
+# vcom -reportprogress 300 -93 -work work ../../src/OR_gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity OR_gate
+# -- Compiling architecture OR_out of OR_gate
+# End time: 15:11:55 on Sep 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:11:55 on Sep 12,2023
+# vcom -reportprogress 300 -93 -work work ../../src/full_adder_single_bit_struc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity full_adder_single_bit_struc
+# -- Compiling architecture struc of full_adder_single_bit_struc
+# -- Loading entity and_gate
+# -- Loading entity XOR_gate
+# -- Loading entity OR_gate
+# End time: 15:12:02 on Sep 12,2023, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:12:02 on Sep 12,2023
+# vcom -reportprogress 300 -93 -work work ../src/full_adder_single_bit_beh_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity full_adder_single_bit_beh_tb
+# -- Compiling architecture arch of full_adder_single_bit_beh_tb
+# End time: 15:12:02 on Sep 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" full_adder_single_bit_beh_tb 
+# Start time: 15:12:08 on Sep 12,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.full_adder_single_bit_beh_tb(arch)
+# Loading ieee.numeric_std(body)
+# Loading work.full_adder_single_bit_struc(struc)
+# Loading work.and_gate(and_out)
+# Loading work.xor_gate(xor_out)
+# Loading work.or_gate(or_out)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mc5823  Hostname: GOL-1360-04  ProcessID: 10144
+#           Attempting to use alternate WLF file "./wlftfahdq3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftfahdq3
+# End time: 15:13:00 on Sep 12,2023, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 2

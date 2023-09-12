@@ -1,0 +1,131 @@
+m255
+K4
+z2
+!s11e vcom 2019.2 2019.04, Apr 17 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/mc5823/CPET343/Labs/Lab_1/full_adder_single_bit_beh/sim/script
+T_opt
+!s110 1694457821
+VRC]X@>FnY<AJb@2f?EQnH3
+Z1 04 28 4 work full_adder_single_bit_beh_tb arch 1
+=1-b07b2521acf5-64ff5fdc-3d5-27a0
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2019.2;69
+R0
+T_opt1
+!s110 1694458090
+Vf8DjBkXDi25DJfE1>lGJ33
+R1
+=1-b07b2521acf5-64ff60e9-3d5-2248
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1694458289
+V_gFGmo11``hiIj2R4kdWH1
+R1
+=1-b07b2521acf5-64ff61a6-245-26ac
+R2
+R3
+n@_opt2
+R4
+R0
+T_opt3
+!s110 1694461616
+Vm=;H9V:TDVn7?L2EJb`Uk1
+R1
+=1-b07b2521acf5-64ff6eaf-3d7-4068
+R2
+R3
+n@_opt3
+R4
+R0
+Efull_adder_single_bit_beh
+Z5 w1694459922
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R0
+Z9 8../../src/full_adder_single_bit_beh.vhd
+Z10 F../../src/full_adder_single_bit_beh.vhd
+l0
+L10
+Vb_6CT1?30h^E0=WDR9Ze71
+!s100 R6K6k8Hh7W;G@5M9C8G8C1
+Z11 OV;C;10.5b;63
+31
+Z12 !s110 1694477520
+!i10b 1
+Z13 !s108 1694477518.000000
+Z14 !s90 -reportprogress|300|-93|-work|work|../../src/full_adder_single_bit_beh.vhd|
+Z15 !s107 ../../src/full_adder_single_bit_beh.vhd|
+!i113 1
+Z16 o-93 -work work
+Z17 tExplicit 1 CvgOpt 0
+Abeh
+R6
+R7
+R8
+DEx4 work 25 full_adder_single_bit_beh 0 22 b_6CT1?30h^E0=WDR9Ze71
+l27
+L20
+V=foZm;4<Sc9c=h2SScP:D2
+!s100 G:?lZJgAU[gF]i[3dZDMz3
+R11
+31
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Efull_adder_single_bit_beh_tb
+Z18 w1694457382
+R7
+R6
+R0
+Z19 8../src/full_adder_single_bit_beh_tb.vhd
+Z20 F../src/full_adder_single_bit_beh_tb.vhd
+l0
+L8
+VR39eAB0`GfW:9BRV2[LTL2
+!s100 Q[@[NL[Bg@NUI4ZQ^zW@H2
+R11
+31
+Z21 !s110 1694477537
+!i10b 1
+Z22 !s108 1694477530.000000
+Z23 !s90 -reportprogress|300|-93|-work|work|../src/full_adder_single_bit_beh_tb.vhd|
+Z24 !s107 ../src/full_adder_single_bit_beh_tb.vhd|
+!i113 1
+R16
+R17
+Aarch
+R7
+R6
+Z25 DEx4 work 28 full_adder_single_bit_beh_tb 0 22 R39eAB0`GfW:9BRV2[LTL2
+l29
+L11
+Z26 VU:Bd@7K[UfD^816e8e[B02
+Z27 !s100 AWVb]NK;V6==F9K?eUcLZ0
+R11
+31
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R16
+R17

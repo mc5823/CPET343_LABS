@@ -1,0 +1,298 @@
+m255
+K4
+z2
+!s11e vcom 2019.2 2019.04, Apr 17 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/mc5823/CPET343/Labs/Lab_1/full_adder_single_bit_beh/sim/script
+T_opt
+!s110 1694457821
+VRC]X@>FnY<AJb@2f?EQnH3
+Z1 04 28 4 work full_adder_single_bit_beh_tb arch 1
+=1-b07b2521acf5-64ff5fdc-3d5-27a0
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2019.2;69
+R0
+T_opt1
+!s110 1694458090
+Vf8DjBkXDi25DJfE1>lGJ33
+R1
+=1-b07b2521acf5-64ff60e9-3d5-2248
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1694458289
+V_gFGmo11``hiIj2R4kdWH1
+R1
+=1-b07b2521acf5-64ff61a6-245-26ac
+R2
+R3
+n@_opt2
+R4
+R0
+T_opt3
+!s110 1694461616
+Vm=;H9V:TDVn7?L2EJb`Uk1
+R1
+=1-b07b2521acf5-64ff6eaf-3d7-4068
+R2
+R3
+n@_opt3
+R4
+R0
+Eand_gate
+Z5 w1694544630
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z9 dE:/mc5823/CPET343/Labs/Lab_1/full_adder_single_bit_struc/sim/script
+Z10 8../../src/AND_gate.vhd
+Z11 F../../src/AND_gate.vhd
+l0
+L9
+V14g]f5?3eo[P8d2LfcSkR2
+!s100 8=L7W^@Hkmk@ne4@2E7301
+Z12 OV;C;10.5b;63
+31
+Z13 !s110 1694545915
+!i10b 1
+Z14 !s108 1694545915.000000
+Z15 !s90 -reportprogress|300|-93|-work|work|../../src/AND_gate.vhd|
+Z16 !s107 ../../src/AND_gate.vhd|
+!i113 1
+Z17 o-93 -work work
+Z18 tExplicit 1 CvgOpt 0
+Aand_out
+R6
+R7
+R8
+Z19 DEx4 work 8 and_gate 0 22 14g]f5?3eo[P8d2LfcSkR2
+l19
+L18
+VdN<O6eB>[[T2haF5Mi<Rd3
+!s100 8Adi]gMGjfo0AjfzHEY722
+R12
+31
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Efull_adder_single_bit_beh
+Z20 w1694459922
+R6
+R7
+R8
+R0
+Z21 8../../src/full_adder_single_bit_beh.vhd
+Z22 F../../src/full_adder_single_bit_beh.vhd
+l0
+L10
+Vb_6CT1?30h^E0=WDR9Ze71
+!s100 R6K6k8Hh7W;G@5M9C8G8C1
+R12
+31
+Z23 !s110 1694477520
+!i10b 1
+Z24 !s108 1694477518.000000
+Z25 !s90 -reportprogress|300|-93|-work|work|../../src/full_adder_single_bit_beh.vhd|
+Z26 !s107 ../../src/full_adder_single_bit_beh.vhd|
+!i113 1
+R17
+R18
+Abeh
+R6
+R7
+R8
+DEx4 work 25 full_adder_single_bit_beh 0 22 b_6CT1?30h^E0=WDR9Ze71
+l27
+L20
+V=foZm;4<Sc9c=h2SScP:D2
+!s100 G:?lZJgAU[gF]i[3dZDMz3
+R12
+31
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R17
+R18
+Efull_adder_single_bit_beh_tb
+Z27 w1694545454
+R7
+R6
+R9
+Z28 8../src/full_adder_single_bit_beh_tb.vhd
+Z29 F../src/full_adder_single_bit_beh_tb.vhd
+l0
+L8
+VR39eAB0`GfW:9BRV2[LTL2
+!s100 Q[@[NL[Bg@NUI4ZQ^zW@H2
+R12
+31
+Z30 !s110 1694545922
+!i10b 1
+Z31 !s108 1694545922.000000
+Z32 !s90 -reportprogress|300|-93|-work|work|../src/full_adder_single_bit_beh_tb.vhd|
+Z33 !s107 ../src/full_adder_single_bit_beh_tb.vhd|
+!i113 1
+R17
+R18
+Aarch
+R7
+R6
+Z34 DEx4 work 28 full_adder_single_bit_beh_tb 0 22 R39eAB0`GfW:9BRV2[LTL2
+l29
+L11
+V@>aWU^k<;VdC7<m^F9aK23
+!s100 i^D<AP@K^N>F^n]U2[<D>3
+R12
+31
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R17
+R18
+Efull_adder_single_bit_struc
+Z35 w1694545910
+R6
+R7
+R8
+R9
+Z36 8../../src/full_adder_single_bit_struc.vhd
+Z37 F../../src/full_adder_single_bit_struc.vhd
+l0
+L9
+VD_3A[k]EMHJ=15WR_[lUB2
+!s100 z@SY<Bi::8gEeBHEgRC<j1
+R12
+31
+R30
+!i10b 1
+R14
+Z38 !s90 -reportprogress|300|-93|-work|work|../../src/full_adder_single_bit_struc.vhd|
+Z39 !s107 ../../src/full_adder_single_bit_struc.vhd|
+!i113 1
+R17
+R18
+Astruc
+Z40 DEx4 work 7 or_gate 0 22 ^3RL@BYjF=`<XH9iAKo_F2
+Z41 DEx4 work 8 xor_gate 0 22 WKJcL:biN?`?o49TzUMhM2
+R19
+R6
+R7
+R8
+DEx4 work 27 full_adder_single_bit_struc 0 22 D_3A[k]EMHJ=15WR_[lUB2
+l25
+L19
+VhLNAl^L8b>o:EH[UTP;W11
+!s100 Pj7OSKMMIFfCKP_]HGcd_1
+R12
+31
+R30
+!i10b 1
+R14
+R38
+R39
+!i113 1
+R17
+R18
+Eor_gate
+R5
+R6
+R7
+R8
+R9
+Z42 8../../src/OR_gate.vhd
+Z43 F../../src/OR_gate.vhd
+l0
+L9
+V^3RL@BYjF=`<XH9iAKo_F2
+!s100 X`L5hid6Ked3ASPX7mm?50
+R12
+31
+R13
+!i10b 1
+R14
+Z44 !s90 -reportprogress|300|-93|-work|work|../../src/OR_gate.vhd|
+Z45 !s107 ../../src/OR_gate.vhd|
+!i113 1
+R17
+R18
+Aor_out
+R6
+R7
+R8
+R40
+l20
+L19
+V1UJD96_BQ^`>6Gh24W:]F2
+!s100 6;amnLN=7bKXC4ajc5a4^1
+R12
+31
+R13
+!i10b 1
+R14
+R44
+R45
+!i113 1
+R17
+R18
+Exor_gate
+R5
+R6
+R7
+R8
+R9
+Z46 8../../src/XOR_gate.vhd
+Z47 F../../src/XOR_gate.vhd
+l0
+L10
+VWKJcL:biN?`?o49TzUMhM2
+!s100 UUA>JnWVOU7[Xo5HonAYc2
+R12
+31
+R13
+!i10b 1
+R14
+Z48 !s90 -reportprogress|300|-93|-work|work|../../src/XOR_gate.vhd|
+Z49 !s107 ../../src/XOR_gate.vhd|
+!i113 1
+R17
+R18
+Axor_out
+R6
+R7
+R8
+R41
+l20
+L19
+V_cVANg1CQomdfdRB[7nVT2
+!s100 9fT=L@SjYG<7PGD::e[c<2
+R12
+31
+R13
+!i10b 1
+R14
+R48
+R49
+!i113 1
+R17
+R18
